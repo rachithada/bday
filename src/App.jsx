@@ -4,7 +4,7 @@ import GreetingScreen from './components/greetingScreen'
 import Message from './components/Message';
 import Appreciate from './components/Appreciate';
 import Cake from './components/Cake';
-import End from './components/end';
+import End from './components/End';
 import { useState } from 'react';
 import { Route, Routes } from 'react-router-dom';
 
