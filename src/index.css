@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.star-class {
+  position: absolute;
+  width: 3px;
+  height: 3px;
+  background: #ffd700;
+  border-radius: 50%;
+  box-shadow: 
+    0 0 6px #ffd700,
+    0 0 12px #ffd700,
+    0 0 18px #ffa500;
+  animation: twinkle 2.5s infinite ease-in-out alternate;
+}
+
+.star-class::before {
+  content: '';
+  position: absolute;
+  top: -1px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 1px;
+  height: 5px;
+  background: linear-gradient(to bottom, transparent, #ffd700, transparent);
+  border-radius: 50px;
+}
+
+.star-class::after {
+  content: '';
+  position: absolute;
+  left: -1px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 5px;
+  height: 1px;
+  background: linear-gradient(to right, transparent, #ffd700, transparent);
+  border-radius: 50px;
+}
+
+@keyframes twinkle {
+  0% { 
+    opacity: 0.4;
+    transform: scale(0.8);
+  }
+  50% { 
+    opacity: 1;
+    transform: scale(1.2);
+  }
+  100% { 
+    opacity: 0.6;
+    transform: scale(1);
+  }
+}
