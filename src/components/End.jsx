@@ -7,7 +7,7 @@ export default function BirthdayEndingPage() {
   const [isComplete, setIsComplete] = useState(false);
   const [showFireworks, setShowFireworks] = useState(false);
 
-  const fullMessage = "Bas yehi kehna tha…\n\nTu sabse alag hai, sabse pyari hai,\nAur tera b'day bhi special hona hi chahiye tha!\n\nToh jaa ab maze kar — cake kha, dance kar, aur doston ke sath dhamaka kar! 🥳\n\nAur haan… Bye bolna tough hai,\nPar itna yaad rakhna — tu bahut special hai 💖\n\nApna birthday full on enjoy kar… aur smile zaroor karna 😄";
+  const fullMessage = "Bas yehi kehna tha…\n\nTu sabse alag hai, sabse pyari hai,\nAur tera b'day bhi special hona hi chahiye tha!\n\nToh jaa ab maze kar — cake kha, dance kar, aur doston ke sath dhamaka kar! 🥳\n\nAur haan… Bye bolna tough hai,\nPar itna yaad rakhna — tu bahut special hai 💖\n\nApna birthday full on enjoy kar… aur smile zaroor karna 😄 Agr tujhe ye acha lga ho to meko msg krna thankyou mt bolna bs tareef krna koi krta hi nhi hai meri tareef aur cute to me tujhse jyada hu 😂😂";
 
   // Typing animation effect
   useEffect(() => {

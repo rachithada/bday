@@ -6,16 +6,17 @@ export default function Appreciate() {
   const [isAnimating, setIsAnimating] = useState(false);
 
   const messages = [
-    "Jab bhi mujhe zarurat hoti hai, tu hamesha saath hoti hai ❤️",
-    "Tere saath boring din bhi fun ban jaate hain 🌈",
-    "Tu kabhi judge nahi karti — sirf vibe karti hai 🤝",
-    "Tu meri sabse badi hype machine hai 🔥",
-    "Tu wo insan hai jisse main sabse pehle apni baat share karta hoon 🤫",
-    "Tune hamesha mujhe sahi decision lene mein madad ki hai 🧠",
-    "Hamari yaadein meri life ke best moments hain 📸",
-    "Tu sach bolti hai, chahe wo sunna mushkil ho 🪞",
-    "Jab main khud pe doubt karta hoon, tu mujhe support karti hai 🛡️",
-    "Tu bas... irreplaceable hai. . 🫶"
+    "Jab bhi mujhe zarurat hoti hai, tu hamesha saath hoti hai ❤️ (hoti to nhi hai wese 😂)",
+    "Tere saath boring din bhi fun ban jaate hain 🌈 (it's true lekin tera acha din mere saath boring hojata hoga)",
+    "Tu kabhi judge nahi karti — sirf vibe karti hai 🤝(tu to baat hi nhi krti judge kha kregi 😔)",
+    "Tu mere clg ane ka sbse bda reason hai (mza ata hai pareshn krne me 😁😁)",
+    "Tu wo insan hai jisse main sabse pehle apni baat share karta hoon 🤫(teko vishwas na hoga lekin krta hu )",
+    "Tune hamesha mujhe sahi decision lene mein madad ki hai 🧠(hamesha nhi kbhi adhe time to ignore krti hai)",
+    "Hamari yaadein meri life ke best moments hain 📸(hn ye to true hai)",
+    "Tu sach bolti hai, chahe wo sunna mushkil ho 🪞(sach nhi bolti bs bhaga deti hai aur baat nhi krti)",
+    "Jab main khud pe doubt karta hoon, tu mujhe support karti hai 🛡️(yeah its true)",
+    "Tu bas... irreplaceable hai. . 🫶(hn tu hai)",
+    "aur plz ye ditch kra tune bolna chodh de tune jyada kra hai mene to sari chize btayi hai teko realtiy btayi hai bina bole nhi bhaga hu me kahi bhi"
   ];
 
   const gradients = [

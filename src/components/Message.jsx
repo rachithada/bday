@@ -6,25 +6,12 @@ export default function Message() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [showHearts, setShowHearts] = useState(false);
 
-  const message = `Meri Motuu 💛 
+  const message = `Hie My Motuu 💛 
   
-Aaj tera din hai… aur sach bolu toh tujhe ek simple *Happy Birthday* bolna kaafi nahi lagta.
-
-Tujhse dosti hona meri life ka ek **most special part** hai. Kabhi tu pagal ban jaati hai, kabhi samajhdar guru, kabhi meme queen, aur kabhi emotional support system.
-
-Main har waqt tujhe irritate karta hoon, lekin sach mein — *I'm really lucky to have you.*
-
-Tune hamesha bina judge kiye meri baatein suni, chahe main kitna bhi overthink karu ya chup ho jaaun. Tere saath har moment yaadgaar ban jaata hai.
-
-**Haan tu gussa toh bahut karti hai 😤, lekin maan bhi jaati hai — isiliye toh tu special hai.** Lekin ek baat bolun? Jo past mein hua na… usse ab dil se nikaal de. **Har koi tujhe deserve nahi karta — aur tu un sab cheezon se zyada achhi hai.** **Tu best hai. Kabhi mat bhoolna. 💫**
-
-Tu sirf meri dost nahi hai, tu meri **family jaisi** hai — thodi crazy, lekin sabse close. 💖
-
-Aaj tujhe bas yeh yaad dilana tha — tu important hai, tu special hai, aur tu deserve karti hai **sab kuch best** is duniya mein.
-
-Happy Birthday, Motuu! 🎉 Tera best friend hamesha tere saath hai — annoy karne ke liye bhi, aur support karne ke liye bhi. 😄
-
-Love you… **as a friend, obviously.** 😜`;
+Yess its finally 12 and yes its your bday mujhe nhi pta tu khush hai dukhi hai ya jo mene website me likha hai isese tu aur bhi jyada gusse me hai
+lekin mene pura try kr kra hai teko khush rakhne ka aur me chahta hu dil se ki tera bday hai tu ache se enjoy kre tere periods chl rhe hai
+mujhe pta hai lekin 1 din sb bhul ja aur ache se enjoy kr 1 din ke liye koi carrer tension koi dusri tension nhi bs enjoy kr ayushi ke sath ghumne ja
+tere hstl me cake bhi katega badiya cake kaat junk food kha 😂 bs itna nhi ki tabiyar khrab hojaye meri taraf se bhot sara *Happy Birthday* milte hai apn monday ko ab 😊😊`;
 
   useEffect(() => {
     if (currentIndex < message.length) {
